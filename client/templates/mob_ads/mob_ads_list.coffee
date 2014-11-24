@@ -1,4 +1,6 @@
+Meteor.subscribe("mob_ads")
+
 Template.mobAdsList.helpers
   mobAds: ->
-    @.mob_ads.find({})
+    this.mobAds()
 

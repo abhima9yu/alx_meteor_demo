@@ -3,8 +3,9 @@ Router.configure
   loadingTemplate: 'loading'
   notFoundTemplate: 'notFound'
 
-Router.route '/', ->
-  @.render('mobAdsList')
-  return
+Router.route '/',
+  name: "home"
+  controller: 'MobAdsController'
+ 
 
 

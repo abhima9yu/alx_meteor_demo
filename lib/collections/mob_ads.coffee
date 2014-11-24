@@ -1,2 +1,2 @@
-MobAds = new Mongo.Collection("mob_ads")
+@MobAds = new Mongo.Collection("mob_ads")
 
