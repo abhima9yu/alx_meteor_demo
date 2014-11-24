@@ -13,6 +13,10 @@ Router.map ->
   @route 'login',
     path: "/login"
     controller: 'SessionsController'
+
+  @route 'mobAdShow',
+    path: "/mobAd/:_id"
+    controller: 'MobAdController'
     
 
 requireLogin = ->
