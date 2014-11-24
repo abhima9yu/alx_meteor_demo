@@ -10,5 +10,6 @@ http
 iron:router
 mizzao:bootstrap-3
 underscore
-accounts-ui
 accounts-password
+accounts-ui
+

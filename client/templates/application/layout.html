@@ -1,7 +1,13 @@
 <template name="layout">
   <div class="container">
+    <div class="navbar">
+      {{> yield region="navbar"}}
+    </div>
     <div id="main" class="row-fluid">
       {{> yield}}
+    </div>
+    <div class="bottom">
+      {{> yield region="footer"}}
     </div>
   </div>
 </template>
